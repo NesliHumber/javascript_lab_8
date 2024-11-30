@@ -31,3 +31,6 @@ console.log("");
 
 // Converting the student object into a JSON string:
 const jsonString = JSON.stringify(student);
+
+// Log the JSON string to the console:
+console.log(jsonString);
