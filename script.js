@@ -56,3 +56,20 @@ const scores = [85, 92, 78, 90];
 const [firstScore, secondScore] = scores;
 console.log("First score:", firstScore);
 console.log("Second score:", secondScore);
+
+console.log("");
+console.log("============= Part 4: The Spread Operator =============");
+console.log("");
+
+// Clone the student object using the spread operator:
+const clonedStudent = { ...student };
+console.log("Cloned student object:", clonedStudent);
+
+// Add a new property to the cloned object and log it:
+clonedStudent.graduationYear = 2025;
+console.log("Cloned student with graduation year:", clonedStudent);
+
+// Merge two arrays using the spread operator:
+const newCourses = ["Data Science", "Machine Learning"];
+const allCourses = [...student.courses, ...newCourses];
+console.log("All courses:", allCourses);
