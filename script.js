@@ -41,3 +41,18 @@ const convertedStudent = JSON.parse(jsonString);
 // Log and compare:
 console.log("Original student object:", student);
 console.log("Converted student object:", convertedStudent);
+
+console.log("");
+console.log("============= Part 3: Using Destructuring Assignment =============");
+console.log("");
+
+// Destructuring the name and courses of student object:
+const { name, courses } = student;
+console.log("Destructured name:", name);
+console.log("Destructured courses:", courses);
+
+// Creating an array of scores and destructuring the first two scores:
+const scores = [85, 92, 78, 90];
+const [firstScore, secondScore] = scores;
+console.log("First score:", firstScore);
+console.log("Second score:", secondScore);
