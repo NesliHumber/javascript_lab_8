@@ -73,3 +73,15 @@ console.log("Cloned student with graduation year:", clonedStudent);
 const newCourses = ["Data Science", "Machine Learning"];
 const allCourses = [...student.courses, ...newCourses];
 console.log("All courses:", allCourses);
+
+console.log("");
+console.log("============= Part 5: Object Methods =============");
+console.log("");
+
+// Demonstration of addCourse and getTotalCourses methods:
+console.log("Initial courses:", student.courses);
+console.log("Initial total courses:", student.getTotalCourses());
+
+student.addCourse("Deep Learning");
+console.log("Updated courses:", student.courses);
+console.log("Updated total courses:", student.getTotalCourses());
