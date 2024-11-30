@@ -34,3 +34,10 @@ const jsonString = JSON.stringify(student);
 
 // Log the JSON string to the console:
 console.log(jsonString);
+
+// Converting the JSON string back into a JavaScript object:
+const convertedStudent = JSON.parse(jsonString);
+
+// Log and compare:
+console.log("Original student object:", student);
+console.log("Converted student object:", convertedStudent);
