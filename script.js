@@ -24,3 +24,10 @@ const student = {
 // Use console.log to output information:
 console.log(`Name: ${student.name}, Age: ${student.age}`);
 console.log(student.displayInfo());
+
+console.log("");
+console.log("============= Part 2: Working with JSON =============");
+console.log("");
+
+// Converting the student object into a JSON string:
+const jsonString = JSON.stringify(student);
