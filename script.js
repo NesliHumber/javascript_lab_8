@@ -85,3 +85,14 @@ console.log("Initial total courses:", student.getTotalCourses());
 student.addCourse("Deep Learning");
 console.log("Updated courses:", student.courses);
 console.log("Updated total courses:", student.getTotalCourses());
+
+console.log("");
+console.log("============= Part 6: Using reduce method =============");
+console.log("");
+
+// Calculating the average score from the array of scores by using reduce method:
+const averageScore = scores.reduce((sum, score) => sum + score, 0) / scores.length;
+
+console.log("Scores:", scores);
+console.log("Average Score:", averageScore.toFixed(2)); // .toFixed(2) -> rounds to two decimal points
+
